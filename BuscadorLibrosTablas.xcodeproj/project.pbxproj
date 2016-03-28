@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E4C67621CA2ED9900E73281 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4C67611CA2ED9900E73281 /* AppDelegate.swift */; };
+		3E4C67671CA2ED9900E73281 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E4C67651CA2ED9900E73281 /* Main.storyboard */; };
+		3E4C676A1CA2ED9900E73281 /* BuscadorLibrosTablas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3E4C67681CA2ED9900E73281 /* BuscadorLibrosTablas.xcdatamodeld */; };
+		3E4C676C1CA2ED9900E73281 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E4C676B1CA2ED9900E73281 /* Assets.xcassets */; };
+		3E4C676F1CA2ED9900E73281 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E4C676D1CA2ED9900E73281 /* LaunchScreen.storyboard */; };
+		3E4C67771CA2EF0F00E73281 /* TablaLibros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4C67761CA2EF0F00E73281 /* TablaLibros.swift */; };
+		3E4C677B1CA2F69100E73281 /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4C677A1CA2F69100E73281 /* Datos.swift */; };
+		3E4C677D1CA3014700E73281 /* DetalleLibro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4C677C1CA3014700E73281 /* DetalleLibro.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3E4C675E1CA2ED9900E73281 /* BuscadorLibrosTablas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuscadorLibrosTablas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E4C67611CA2ED9900E73281 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3E4C67661CA2ED9900E73281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E4C67691CA2ED9900E73281 /* BuscadorLibrosTablas.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BuscadorLibrosTablas.xcdatamodel; sourceTree = "<group>"; };
+		3E4C676B1CA2ED9900E73281 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E4C676E1CA2ED9900E73281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3E4C67701CA2ED9900E73281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E4C67761CA2EF0F00E73281 /* TablaLibros.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TablaLibros.swift; sourceTree = "<group>"; };
+		3E4C677A1CA2F69100E73281 /* Datos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
+		3E4C677C1CA3014700E73281 /* DetalleLibro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetalleLibro.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E4C675B1CA2ED9900E73281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E4C67551CA2ED9900E73281 = {
+			isa = PBXGroup;
+			children = (
+				3E4C67601CA2ED9900E73281 /* BuscadorLibrosTablas */,
+				3E4C675F1CA2ED9900E73281 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E4C675F1CA2ED9900E73281 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E4C675E1CA2ED9900E73281 /* BuscadorLibrosTablas.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E4C67601CA2ED9900E73281 /* BuscadorLibrosTablas */ = {
+			isa = PBXGroup;
+			children = (
+				3E4C67611CA2ED9900E73281 /* AppDelegate.swift */,
+				3E4C67761CA2EF0F00E73281 /* TablaLibros.swift */,
+				3E4C677C1CA3014700E73281 /* DetalleLibro.swift */,
+				3E4C677A1CA2F69100E73281 /* Datos.swift */,
+				3E4C67651CA2ED9900E73281 /* Main.storyboard */,
+				3E4C676B1CA2ED9900E73281 /* Assets.xcassets */,
+				3E4C676D1CA2ED9900E73281 /* LaunchScreen.storyboard */,
+				3E4C67701CA2ED9900E73281 /* Info.plist */,
+				3E4C67681CA2ED9900E73281 /* BuscadorLibrosTablas.xcdatamodeld */,
+			);
+			path = BuscadorLibrosTablas;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E4C675D1CA2ED9900E73281 /* BuscadorLibrosTablas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E4C67731CA2ED9900E73281 /* Build configuration list for PBXNativeTarget "BuscadorLibrosTablas" */;
+			buildPhases = (
+				3E4C675A1CA2ED9900E73281 /* Sources */,
+				3E4C675B1CA2ED9900E73281 /* Frameworks */,
+				3E4C675C1CA2ED9900E73281 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BuscadorLibrosTablas;
+			productName = BuscadorLibrosTablas;
+			productReference = 3E4C675E1CA2ED9900E73281 /* BuscadorLibrosTablas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E4C67561CA2ED9900E73281 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Everardo Guevara Soto";
+				TargetAttributes = {
+					3E4C675D1CA2ED9900E73281 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 3E4C67591CA2ED9900E73281 /* Build configuration list for PBXProject "BuscadorLibrosTablas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E4C67551CA2ED9900E73281;
+			productRefGroup = 3E4C675F1CA2ED9900E73281 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E4C675D1CA2ED9900E73281 /* BuscadorLibrosTablas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E4C675C1CA2ED9900E73281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E4C676F1CA2ED9900E73281 /* LaunchScreen.storyboard in Resources */,
+				3E4C676C1CA2ED9900E73281 /* Assets.xcassets in Resources */,
+				3E4C67671CA2ED9900E73281 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E4C675A1CA2ED9900E73281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E4C676A1CA2ED9900E73281 /* BuscadorLibrosTablas.xcdatamodeld in Sources */,
+				3E4C677B1CA2F69100E73281 /* Datos.swift in Sources */,
+				3E4C677D1CA3014700E73281 /* DetalleLibro.swift in Sources */,
+				3E4C67621CA2ED9900E73281 /* AppDelegate.swift in Sources */,
+				3E4C67771CA2EF0F00E73281 /* TablaLibros.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3E4C67651CA2ED9900E73281 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E4C67661CA2ED9900E73281 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3E4C676D1CA2ED9900E73281 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E4C676E1CA2ED9900E73281 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E4C67711CA2ED9900E73281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E4C67721CA2ED9900E73281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E4C67741CA2ED9900E73281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BuscadorLibrosTablas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.evero91.BuscadorLibrosTablas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3E4C67751CA2ED9900E73281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BuscadorLibrosTablas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.evero91.BuscadorLibrosTablas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E4C67591CA2ED9900E73281 /* Build configuration list for PBXProject "BuscadorLibrosTablas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E4C67711CA2ED9900E73281 /* Debug */,
+				3E4C67721CA2ED9900E73281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E4C67731CA2ED9900E73281 /* Build configuration list for PBXNativeTarget "BuscadorLibrosTablas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E4C67741CA2ED9900E73281 /* Debug */,
+				3E4C67751CA2ED9900E73281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3E4C67681CA2ED9900E73281 /* BuscadorLibrosTablas.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3E4C67691CA2ED9900E73281 /* BuscadorLibrosTablas.xcdatamodel */,
+			);
+			currentVersion = 3E4C67691CA2ED9900E73281 /* BuscadorLibrosTablas.xcdatamodel */;
+			path = BuscadorLibrosTablas.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3E4C67561CA2ED9900E73281 /* Project object */;
+}
